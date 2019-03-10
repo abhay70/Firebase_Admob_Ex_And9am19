@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6232583571965519/2228393468">
+    </com.google.android.gms.ads.AdView>
+
+    <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Banner"
+            android:id="@+id/banner"
+            android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Interestial"
+            android:id="@+id/interestial"
+            android:layout_gravity="center"/>
+
+    <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Video"
+            android:id="@+id/video"
+            android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
